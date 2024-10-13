@@ -1,0 +1,74 @@
+:root {
+    --p-border-main: #e4e6ea;
+    
+    --p-surface-0: #ffffff;
+    --p-surface-50: #f8fafc;
+    --p-surface-100: #f1f5f9;
+    --p-surface-200: #e2e8f0;
+    --p-surface-300: #cbd5e1;
+    --p-surface-400: #94a3b8;
+    --p-surface-500: #64748b;
+    --p-surface-600: #475569;
+    --p-surface-700: #334155;
+    --p-surface-800: #1e293b;
+    --p-surface-900: #0f172a;
+    --p-surface-950: #020617;
+    
+    --p-content-border-radius: 6px;
+}
+
+:root {
+    --p-primary-color: var(--p-primary-500);
+    --p-primary-contrast-color: var(--p-surface-0);
+    --p-primary-hover-color: var(--p-primary-600);
+    --p-primary-active-color: var(--p-primary-700);
+    --p-content-border-color: var(--p-surface-200);
+    --p-content-hover-background: var(--p-surface-100);
+    --p-content-hover-color: var(--p-surface-800);
+    --p-highlight-background: var(--p-primary-50);
+    --p-highlight-color: var(--p-primary-700);
+    --p-highlight-focus-background: var(--p-primary-100);
+    --p-highlight-focus-color: var(--p-primary-800);
+    --p-text-color: var(--p-surface-700);
+    --p-text-hover-color: var(--p-surface-800);
+    --p-text-muted-color: var(--p-surface-500);
+    --p-text-hover-muted-color: var(--p-surface-600);
+    
+    // Card
+    --p-card-border-radius: 4px;
+    --p-card-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.3), 0 0 2px -1px rgba(0, 0, 0, 0.3);
+    
+    // DataTable
+    --p-datatable-body-cell-padding: 0.75rem 1rem;
+    
+    // Pagination
+    --p-paginator-gap: 0;
+    --p-paginator-padding: 1rem 0;
+    --p-paginator-nav-button-background: #ffffff;
+    --p-paginator-nav-button-width: 1.7rem;
+    --p-paginator-nav-button-height: 2rem;
+    --p-paginator-nav-button-border: solid 1px var(--p-border-main);
+    --p-paginator-nav-button-border-radius: 4px;
+    --p-paginator-nav-button-color: var(--p-primary-500);
+    --p-paginator-nav-button-selected-background: var(--p-primary-500);
+    --p-paginator-nav-button-selected-color: #fff;
+    --p-datatable-paginator-bottom-border-width: 0;
+}
+
+:root.p-dark {
+    --p-primary-color: var(--p-primary-400);
+    --p-primary-contrast-color: var(--p-surface-900);
+    --p-primary-hover-color: var(--p-primary-300);
+    --p-primary-active-color: var(--p-primary-200);
+    --p-content-border-color: var(--p-surface-700);
+    --p-content-hover-background: var(--p-surface-800);
+    --p-content-hover-color: var(--p-surface-0);
+    --p-highlight-background: color-mix(in srgb, var(--p-primary-400), transparent 84%);
+    --p-highlight-color: rgba(255, 255, 255, .87);
+    --p-highlight-focus-background: color-mix(in srgb, var(--p-primary-400), transparent 76%);
+    --p-highlight-focus-color: rgba(255, 255, 255, .87);
+    --p-text-color: var(--p-surface-0);
+    --p-text-hover-color: var(--p-surface-0);
+    --p-text-muted-color: var(--p-surface-400);
+    --p-text-hover-muted-color: var(--p-surface-300);
+}

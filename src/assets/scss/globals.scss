@@ -1,0 +1,16 @@
+@layer tailwind-base, primevue, tailwind-utilities, app-overrides;
+
+@layer tailwind-base {
+    @import "tailwindcss/base";
+}
+
+@layer tailwind-utilities {
+    @import "tailwindcss/components";
+    @import "tailwindcss/utilities";
+}
+
+@layer app-overrides {
+    @import "./variables";
+    @import "./overrides";
+    @import 'primeicons/primeicons';
+}

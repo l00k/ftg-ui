@@ -1,0 +1,26 @@
+{
+    "userList": {
+        "title": "User List",
+        "fullName": "Name",
+        "actions": "Actions",
+        "edit": "Edit",
+        "delete": "Delete"
+    },
+    "userAdd": {
+        "title": "Add User"
+    },
+    "userEdit": {
+        "title": "Edit User"
+    },
+    "userForm": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "saveChanges": "Save Changes",
+        "create": "Create",
+        "returnToList": "Return to list",
+        "success": "Success",
+        "created": "User created",
+        "updated": "User updated",
+        "changePhoto": "Change Photo"
+    }
+}
